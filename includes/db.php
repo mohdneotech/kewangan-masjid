@@ -309,8 +309,9 @@ function pkw_penyata( $dari, $hingga ) {
 	$awal = 0.0; $awal_baru = 0.0; $akhir = 0.0; $akaun = [];
 	foreach ( pkw_akaun() as $a ) {
 		$b0 = pkw_baki_akaun( $a, $prev );
+		if ( $a['tarikh_mula'] === $dari ) { $b0 = (float) $a['baki_awal']; } // opened on day 1 of the period → part of opening balance
 		$b1 = pkw_baki_akaun( $a, $hingga );
-		$baru = ( $a['tarikh_mula'] >= $dari && $a['tarikh_mula'] <= $hingga ) ? (float) $a['baki_awal'] : 0.0;
+		$baru = ( $a['tarikh_mula'] > $dari && $a['tarikh_mula'] <= $hingga ) ? (float) $a['baki_awal'] : 0.0;
 		$awal += $b0; $awal_baru += $baru; $akhir += $b1;
 		$akaun[] = [ 'nama' => $a['nama'], 'butiran' => $a['butiran'], 'awal' => $b0 + $baru, 'akhir' => $b1 ];
 	}

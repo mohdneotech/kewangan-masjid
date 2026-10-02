@@ -4,6 +4,8 @@ Plugin WordPress untuk **Bendahari masjid atau surau** — rekod penerimaan & pe
 
 *A WordPress plugin for Malaysian mosques and suraus: a simple cash-basis ledger (income, expenses, transfers between bank and petty cash), live account balances, a printable monthly/yearly Receipts & Payments statement, month-end close and a full audit trail — on a private front-end page for the treasurer and authorised committee members. UI is in Bahasa Melayu.*
 
+![Ringkasan — baki akaun, carta bulanan, kategori utama](docs/ringkasan.png)
+
 ## Ciri-ciri
 
 **Untuk Bendahari**
@@ -30,6 +32,16 @@ Plugin WordPress untuk **Bendahari masjid atau surau** — rekod penerimaan & pe
 
 **Integrasi dengan [Kariah & Khairat Masjid](https://github.com/mohdneotech/kariah-khairat)** *(pilihan)*
 - Bayaran khairat & korban yang telah **disahkan** dalam plugin Kariah dimasukkan secara automatik sebagai penerimaan (mengikut tarikh bayaran) — tidak perlu direkod dua kali
+
+| Penyata Penerimaan & Pembayaran | Rekod transaksi |
+|---|---|
+| ![Penyata tahunan](docs/penyata.png) | ![Borang transaksi baharu](docs/transaksi-baru.png) |
+
+| Senarai transaksi | Tetapan — akaun, tutup bulan, integrasi Kariah |
+|---|---|
+| ![Senarai transaksi](docs/transaksi.png) | ![Tetapan](docs/tetapan.png) |
+
+*Tangkapan skrin menggunakan data contoh pada tema Twenty Twenty-Five.*
 
 ## Pemasangan
 

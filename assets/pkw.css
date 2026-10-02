@@ -96,3 +96,5 @@
 .pkw .btn-link{background:none;border-color:transparent;color:var(--g);text-decoration:underline}
 .pkw [hidden]{display:none!important}
 
+.pkw .pkw-row>button,.pkw .pkw-row>.btn{justify-self:start;align-self:end;width:auto}
+.pkw .pkw-form>button{align-self:flex-start;width:auto}

@@ -3,7 +3,7 @@
  * Plugin Name: Kewangan Masjid — Lejar & Penyata Kewangan
  * Plugin URI: https://github.com/mohdneotech/kewangan-masjid
  * Description: Lejar penerimaan & pembayaran masjid/surau (tabung Jumaat, infaq, bil, elaun, program…) dengan Penyata Penerimaan & Pembayaran bulanan/tahunan, baki akaun, tutup bulan dan jejak audit — di halaman dalaman untuk Bendahari & AJK yang diberi kebenaran. Boleh digabung dengan plugin Kariah & Khairat Masjid.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Mohd Nordin Hussain
  * Author URI: https://mohdneotech.com
  * License: GPL-2.0-or-later
@@ -23,7 +23,7 @@ if ( defined( 'PKW_VER' ) ) {
 	return;
 }
 
-define( 'PKW_VER', '1.0.0' );
+define( 'PKW_VER', '1.0.1' );
 define( 'PKW_DB_VER', '1' );
 define( 'PKW_FILE', __FILE__ );
 define( 'PKW_DIR', plugin_dir_path( __FILE__ ) );
